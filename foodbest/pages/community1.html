@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Food Best</title>
+        <link rel="stylesheet" href="../stylesheets/master.css">
+        <link rel="stylesheet" href="../stylesheets/community.css">
+    </head>
+    <body>
+        <div class="mockup-container">
+            <img class="mockup" src="../assets/phone-mockup.jpg" alt="">
+            <div class="container">
+                <div class="home-top">
+                    <img class="home-image" src="../assets/home-top-svg.svg" alt=""/>
+                    <a href="./community.html"><img class="back-arrow" src="../assets/back-arrow.svg" alt="" /></a>
+                </div>
+                <div class="page-section reduced-spacing ">
+                    <h2>Community</h2>
+                </div>
+                <div class="row-container mg-left-lg mg-top-sm">
+                    <img src="../assets/avatar-john.svg" alt="">
+                    <span class="vertical-center mg-left-standard">Hi John!</span>
+                </div>
+                <div class="column-container community-post">
+                    <div class="post-area"
+                      contenteditable
+                      placeholder="What's on your mind?"
+                      oninput="if(this.innerHTML.trim()==='<br>')this.innerHTML=''"
+                    ></div>
+                    <div class="column-container">
+                        <div class="row-container space-between mg-top-sm">
+                            <div class="mg-left-standard">
+                                <img src="../assets/icon-group-post-all.svg" alt="">
+                            </div>
+                            <div onclick="window.location.href='./community4.html'" class="btn btn-green mg-right-standard">
+                                Post
+                            </div>
+                        </div>
+                        <div class="align-flex-end font-color-gray font-size-sm mg-right-standard mg-top-sm">
+                            <div id="anon-tick" class="row-container space-around vertical-center options">
+                                <input type="checkbox" name="" value="">
+                                <span>Anonymous Posting</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

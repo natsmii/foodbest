@@ -1,0 +1,270 @@
+.banner {
+    background-color: #fff;
+    height: 105px;
+}
+
+.column-container,
+.banner {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.input-share {
+    display: flex;
+    align-items: center;
+    font-size: 0.6250em;
+    padding-left: 25px;
+    color: #C7C4C4;
+    width: 250px;
+    height: 50px;
+    background-color: #F6F6F6;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.675em;
+    width: 65px;
+    height: 25px;
+    border-radius: 50px;
+    background-color: #C7C4C4;
+    cursor: pointer;
+}
+
+.btn-green {
+    background-color: #50A675;
+    color: white;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-start {
+    justify-content: flex-start;
+}
+
+.no-padding {
+    padding: 0px;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-flex-end {
+    align-self: flex-end;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.row-container {
+    display: flex;
+}
+
+.vertical-center {
+    align-self: center;
+}
+
+.mg-left-xs {
+    margin-left: 5px;
+}
+
+.mg-left-sm {
+    margin-left: 10px;
+}
+
+.mg-left-standard {
+    margin-left: 20px;
+}
+
+.mg-left-lg {
+    margin-left: 30px;
+}
+
+.mg-top-sm {
+    margin-top: 10px;
+}
+
+.mg-top-md {
+    margin-top: 20px;
+}
+
+.mg-top-lg {
+    margin-top: 30px;
+}
+
+.mg-bt-sm {
+    margin-bottom: 10px !important;
+}
+
+.mg-bt-md {
+    margin-bottom: 20px;
+}
+
+.mg-bt-lg {
+    margin-bottom: 30px;
+}
+
+.mg-right-standard {
+    margin-right: 20px;
+}
+
+.pd-left-standard {
+    padding-left: 20px;
+}
+
+.pd-right-standard {
+    padding-right: 20px;
+}
+
+.icon-group img{
+    margin-left: 5px;
+}
+
+.icon-group img:first-child {
+    margin-left: 0px;
+}
+
+.community-post {
+    background-color: #fff;
+    padding-bottom: 10px;
+}
+
+.nav {
+    width: 400px !important;
+    bottom: 0px;
+}
+
+.tab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 50px;
+    height: 20px;
+    font-size: 0.575em;
+    background-color: #F6F6F6;
+}
+
+.tab-selected {
+    background-color: #354457;
+    color: #fff;
+}
+
+.community-post-left,
+.community-post-left img {
+    width: 50px;
+    height: 80px;
+}
+
+.community-post-profile-name {
+    font-size: 0.725em;
+}
+
+.post-time {
+    font-size: 0.575em;
+}
+
+.post-time {
+    color: #C7C4C4;
+}
+
+#communities,
+#communities img {
+    width: 356px;
+    height: 130px;
+}
+
+.post-comment {
+    font-size: 0.675em;
+}
+
+.post-img,
+.post-img img{
+    max-width: 255px;
+    max-height: 120px;
+}
+
+.scrollable-reviews {
+    overflow-y: auto;
+    height: 270px;
+}
+
+.post-area {
+  height: 300px;
+  padding: 6px;
+  overflow: scroll;
+}
+
+[contenteditable][placeholder]:empty:before {
+  content: attr(placeholder);
+  position: absolute;
+  color: gray;
+  background-color: transparent;
+}
+
+.font-size-sm {
+    font-size: 0.65em;
+}
+
+.font-color-gray {
+    color: #C7C4C4;
+}
+
+#anon-tick {
+    width: 120px;
+}
+
+#anon-tick input{
+    outline: 2px solid #C4C4C4 !important;
+    background-color: #C4C4C4;
+    cursor: pointer;
+}
+
+#anon-tick input[type='checkbox']:checked{
+    background-color: #50A675;
+}
+
+input[type='checkbox']:checked:after {
+	display:none;
+}
+
+.community-post-left-you,
+.community-post-left-you img {
+    width: 50px;
+    height: 50px;
+}
+
+#profile-avatar {
+    width: 100px;
+    height: 100px;
+}
+
+.font-color-brown {
+    color: #C59B82;
+}
+
+#dietary-pref,
+#dietary-pref img {
+    width: 230px;
+    height: 62px;
+}
+
+.custom-divider {
+    width: 90% !important;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #C59B82;
+    margin-bottom: 20px !important;
+}
+
+.menu-group {
+    width: 380px;
+}
